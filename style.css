@@ -1,0 +1,147 @@
+/* setting the font family for the website */
+*{
+    font-family: Arial, sans-serif;
+}
+
+/*************  header format **************/
+
+header{
+    background: #333;
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+}
+nav > a{
+    color: white;
+    text-decoration: none;
+    text-size-adjust: 2rem;
+    padding: 2rem;
+}
+
+/*****************************************/
+
+/*************  body format **************/
+
+
+/* applying the following:
+- background color 
+ - margin and padding to 0 */
+body{
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: #f0f0f0;
+}
+
+/* h1 and h2 : changing color, font size, margin, and text alignment */
+.title {
+    margin: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: gray;
+}
+
+/*****************************************/
+
+/************* blog section format **************/
+
+
+/* adding borders, padding, and margin for separation  
+   adding box-sizing property*/
+article {
+    background: white;
+    padding: 10px 20px;
+    margin: 50px;
+    border-radius: 1rem;
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 1px;
+    box-sizing: border-box;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+/**********************************************/
+
+/*************  contact format **************/
+
+.contact-section{
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-section > form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+}
+
+/********************************************/
+
+/************* footer format **************/
+
+footer{
+    background: #333;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* --- form section -- */
+
+.footer-contact-form{
+    background: white;
+    color: black;
+    padding: 30px 0px;
+    margin: 2rem;
+    border-radius: 1rem;
+    width: 50%;
+}
+
+.footer-contact-form > form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input, textarea{
+    margin: 5px;
+    padding: 0.5rem;
+    width: 80%;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+    color:  white;
+    background: #333;
+    padding: 0.5rem;
+}
+
+/* --- table section -- */
+
+.footer-contact-information{
+    width: 100%;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+
+td , th{
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 0.4rem;
+}
+
+
+/**********************************************/
